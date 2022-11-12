@@ -19,7 +19,7 @@
         data() {
             return {
                 expression: "",
-                emoji:""
+                emoji: "",
             };
         },
         methods: {
@@ -127,7 +127,7 @@
                         break;
 
                     default:
-                        this.emoji = "😐"
+                        this.emoji = "😐";
                         break;
                 }
             },
@@ -145,9 +145,11 @@
 <style>
     h1 {
         position: absolute;
-        top: 50%;
-        left: 50%;
+        top: 10%;
+        left: 45%;
+        font-size: 100px;
     }
+
     .container {
         margin: 0;
         padding: 0;
