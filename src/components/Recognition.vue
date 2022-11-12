@@ -25,6 +25,10 @@
                 
             },
             startVideo() {
+              navigator.getUserMedia = ( navigator.getUserMedia ||
+                       navigator.webkitGetUserMedia ||
+                       navigator.mozGetUserMedia ||
+                       navigator.msGetUserMedia);
                 const video = document.querySelector("video");
                 navigator.getUserMedia(
                     {
