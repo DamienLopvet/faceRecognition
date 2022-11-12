@@ -97,7 +97,7 @@
                         });
                         drawBox.draw(canvas);
                     });
-                }, 4000);
+                }, 400);
             },
         },
         watch: {
